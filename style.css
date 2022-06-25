@@ -104,39 +104,9 @@ header nav {
     text-decoration: none;
 }
 
-.brand, .nav-contact-message {
+.brand {
     font-family: 'Permanent Marker';
     font-size: var(--title);
-}
-
-.nav-contact-message {
-    color: var(--main-title-contact);
-}
-
-.nav-contact-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px;
-}
-
-.nav-contact-number {
-    padding-right: 5px;
-}
-
-.nav-contact-info a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #FFF;
-}
-
-.nav-contact-info ion-icon {
-    font-size: 1.25em;
-}
-
-.nav-contact-info a:hover > ion-icon {
-    color: var(--main-title-contact);
 }
 
 /*Introdução*/
@@ -146,6 +116,7 @@ header nav {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .intro-container {
     min-height: 365px;
 }
